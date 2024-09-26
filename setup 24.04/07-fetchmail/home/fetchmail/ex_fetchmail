@@ -1,0 +1,5 @@
+#!/bin/sh
+
+for i in $(ls /home/fetchmail/*.fm); do
+	fetchmail --ssl -f $i
+done

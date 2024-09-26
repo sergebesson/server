@@ -1,0 +1,6 @@
+# /etc/cron.d/aptitude: crontab pour mise a jour reguliere du system
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=tech@homeasyweb.net
+TERM=dumb
+
+30 1 * * 0 root /usr/bin/apt update; DEBIAN_FRONTEND=noninteractive /usr/bin/apt -y full-upgrade; /usr/bin/apt -y autoremove; /usr/bin/apt autoclean

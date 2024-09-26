@@ -1,0 +1,3 @@
+# /etc/cron.d/hew-init-fetchmail: crontab pour l'execution des fetchmail
+
+* * * * * hew /home/fetchmail/ex_fetchmail >/dev/null 2>&1

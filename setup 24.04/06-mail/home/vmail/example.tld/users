@@ -1,0 +1,5 @@
+# Liste des mailbox user@domain.tld avec son mot de passe et ses options
+
+user1:{PLAIN}mdp1::::::userdb_quota_rule=*:bytes=100K
+user2:{PLAIN}mdp2::::::
+

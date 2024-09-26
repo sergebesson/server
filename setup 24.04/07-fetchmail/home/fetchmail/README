@@ -1,0 +1,14 @@
+exemple de fichier .fm
+
+---------
+# cat serge.famille-besson.com@protect.homeasyweb.net.fm
+poll            mail.famille-besson.com
+protocol        POP3
+username        serge%famille-besson.com
+password        paul2525
+fetchall
+is              serge.famille-besson.com@protect.homeasyweb.net here
+---------
+
+Attention aux droits du fichiers :
+chmod 0600 serge.famille-besson.com@protect.homeasyweb.net.fm

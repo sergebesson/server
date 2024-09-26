@@ -1,0 +1,8 @@
+# Permet de filtrer en fonction d'une entête
+
+/^Subject:\s+I RECORDED YOU!$/ DISCARD
+/^Subject:\s+YOUR DEVICE AND EMAIL HAS BEEN COMPROMISED CHECK THIS MESSAGE NOW!$/ DISCARD
+/^From:.*Newsletter.*@brehoulou\.fr/ DISCARD
+/^To:.*sales@famille-besson\.com/ DISCARD
+/^To:.*sales@hew.\.famille-besson\.com/ DISCARD
+

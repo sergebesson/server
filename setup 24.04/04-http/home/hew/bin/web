@@ -1,0 +1,16 @@
+#!/bin/sh
+
+if [ $1 = 'cd' ]
+then
+	domsdom=$(getDomSousDom $2 /);
+	ls -1d /home/www/sites/*/$domsdom/FTP/$3 >/dev/null 2>&1
+	if [ $? -eq 0 ]
+	then
+		cd /home/www/sites/*/$domsdom/FTP/$3
+	else
+		echo site incorrecte
+	fi
+else
+	user=$(ls -dl . |cut -d' ' -f 3);
+	sudo -u $user "$@"
+fi

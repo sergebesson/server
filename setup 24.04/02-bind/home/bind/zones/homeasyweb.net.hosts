@@ -1,0 +1,26 @@
+// Ce fichier est juste un exemple 
+
+//$ttl 86400
+//homeasyweb.net.	IN	SOA	ns1.homeasyweb.net. tech.homeasyweb.net. (
+//				2007020201
+//				21600
+//				3600
+//				604800
+//				86400 )
+//		IN	NS	ns1.homeasyweb.net.
+//		IN	NS	ns.ovh.net.
+//		IN	MX	10 mail1.homeasyweb.net.
+//
+//		IN	A	87.98.128.192
+//
+//hew1		IN	A	91.121.10.151
+//
+//ns1		IN	A	87.98.128.192
+//
+//mail1		IN	A	87.98.128.192
+//http1		IN	A	87.98.128.192
+//mysql1		IN	A	87.98.128.192
+//
+//mail		IN	CNAME	mail1
+//mysql		IN	CNAME	mysql1
+//*		IN	CNAME	http1

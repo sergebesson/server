@@ -1,0 +1,4 @@
+# /etc/cron.d/hew-admin-web: crontab pour la gestion des stats web + sauvegarde mysql
+MAILTO=tech@homeasyweb.net
+
+59 23 * * * root /home/hew/bin/GestionLogHttp.php

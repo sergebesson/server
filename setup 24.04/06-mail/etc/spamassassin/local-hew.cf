@@ -1,0 +1,7 @@
+
+## Configuration spécifique hew ##
+
+rewrite_header Subject [SPAM _SCORE_]
+report_safe 0
+bayes_path /home/spamassassin/bayes
+pyzor_options --homedir /home/spamassassin

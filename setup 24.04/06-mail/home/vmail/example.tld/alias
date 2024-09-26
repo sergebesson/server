@@ -1,0 +1,5 @@
+# Liste de redirection pour le domaine (facultatif)
+
+all user1 user2 serge@homeasyweb.net
+@example.tld user1
+

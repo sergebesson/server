@@ -1,0 +1,4 @@
+# /etc/cron.d/hew-sa-learn: crontab pour l'apprentissage de spamassassin
+MAILTO=tech@homeasyweb.net
+
+0 1 * * * root /home/hew/bin/sa-learn.sh
